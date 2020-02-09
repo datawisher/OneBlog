@@ -1,6 +1,6 @@
 <#-- 公共顶部 -->
 <#macro header title="OneBlog开源博客" keywords="" description="" canonical="" hasEditor=false>
-<#include "/common/annotation.ftl">
+<#--<#include "/common/annotation.ftl">-->
 <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
