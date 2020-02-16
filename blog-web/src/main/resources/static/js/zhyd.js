@@ -9,14 +9,14 @@
 
 // 动态切换浏览器窗口title https://zhangge.net/
 jQuery(document).ready(function() {
-    function c() {
-        var dynamicTitle = appConfig.dynamicTitle;
-        dynamicTitle = dynamicTitle ? dynamicTitle + " | " : "";
-        document.title = document[a] ? dynamicTitle + d + "" : d
-    }
-    var a, b, d = document.title;
-    "undefined" != typeof document.hidden ? (a = "hidden", b = "visibilitychange") : "undefined" != typeof document.mozHidden ? (a = "mozHidden", b = "mozvisibilitychange") : "undefined" != typeof document.webkitHidden && (a = "webkitHidden", b = "webkitvisibilitychange");
-    "undefined" == typeof document.addEventListener && "undefined" == typeof document[a] || document.addEventListener(b, c, !1)
+    // function c() {
+    //     var dynamicTitle = appConfig.dynamicTitle;
+    //     dynamicTitle = dynamicTitle ? dynamicTitle + " | " : "";
+    //     document.title = document[a] ? dynamicTitle + d + "" : d
+    // }
+    // var a, b, d = document.title;
+    // "undefined" != typeof document.hidden ? (a = "hidden", b = "visibilitychange") : "undefined" != typeof document.mozHidden ? (a = "mozHidden", b = "mozvisibilitychange") : "undefined" != typeof document.webkitHidden && (a = "webkitHidden", b = "webkitvisibilitychange");
+    // "undefined" == typeof document.addEventListener && "undefined" == typeof document[a] || document.addEventListener(b, c, !1)
 });
 
 function initNavbar() {
