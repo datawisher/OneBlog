@@ -2280,9 +2280,9 @@ nav a:first-child .meta-nav {
 
 #feed_widget .widget-icon li {
     float: left;
-    width: 25%;
-    height: 40px;
-    line-height: 38px
+    width: 33%;
+    height: 30px;
+    line-height: 28px
 }
 
 #feed_widget span {
